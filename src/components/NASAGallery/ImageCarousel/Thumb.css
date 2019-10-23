@@ -1,0 +1,7 @@
+
+.carousel-thumbnail {
+    width: 20%;
+    height: 100%;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
