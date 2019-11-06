@@ -3,9 +3,9 @@ import React from 'react'
 import './Thumb.css'
 
 
-function Thumb() {
+const Thumb = (props) => {
     return (
-        <img className="carousel-thumbnail" src="" alt="vista previa" />
+        <img className="carousel-thumbnail" src={props.imgUrl} alt="vista previa" />
     )
 }
 
